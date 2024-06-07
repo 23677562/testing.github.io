@@ -31,5 +31,5 @@ You can find more of my projects on my [GitHub profile](https://github.com/youru
 ## Contact
 I'm always open to connecting with new people. You can reach me at:
 
-- **Email:** [Email]dstokes181@gmail.com
-- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/dean-stokes-43ba4b210/)
+- [**Email**](dstokes181@gmail.com)
+- [**LinkedIn Profile**](https://www.linkedin.com/in/dean-stokes-43ba4b210/)

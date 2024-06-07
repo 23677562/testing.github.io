@@ -1,13 +1,11 @@
 # Dean Stokes's Personal Website
 
-Welcome to my personal website! This site is hosted on GitHub Pages and serves as a showcase of my work, interests, and projects. Feel free to explore and learn more about me.
+Welcome to my personal website! This site serves as a showcase of my work, interests, and projects. Feel free to explore and learn more about me.
 
 ## Table of Contents
 - [About Me](#about-me)
 - [Projects](#projects)
-- [Blog](#blog)
 - [Contact](#contact)
-- [License](#license)
 
 ## About Me
 Hello! I'm Dean Stokes, a Software Engineer and Electronic Masters student. I have a passion for electronics, embedded systems, software and engineering problem solving. This website is a place where I share my work, thoughts, and experiences.
@@ -33,5 +31,5 @@ You can find more of my projects on my [GitHub profile](https://github.com/youru
 ## Contact
 I'm always open to connecting with new people. You can reach me at:
 
-- **Email:** dstokes181@gmail.com
-- **LinkedIn:** (https://www.linkedin.com/in/dean-stokes-43ba4b210/)
+- **Email:** [Email]dstokes181@gmail.com
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/dean-stokes-43ba4b210/)

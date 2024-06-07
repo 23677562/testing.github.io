@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dean Stokes's Personal Website</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
@@ -16,27 +16,21 @@
         </ul>
     </nav>
 
-    <div class="container">
-        <div class="profile">
-            <img src="images/me.jpg" alt="Profile Picture" class="profile-image">
-            <h2>Dean Stokes</h2>
-            <div class="social-links">
-                <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
-                <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                <a href="https://github.com" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+    <div class="profile-container">
+        <img src="images/me.jpg" alt="Profile Picture" class="profile-image">
+        <h2>Dean Stokes</h2>
+        <div class="social-links">
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/dean-stokes-43ba4b210/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <div class="icon">
+                <a href="mailto:dstokes181@gmail.com" target="_blank"><img src="images/email.png" alt="Email"></a>
             </div>
         </div>
+    </div>
+
+    <div class="container">
         <div class="content">
-            <h1>Dean Stokes's Personal Website</h1>
-            <p>Welcome to my personal website! This site serves as a showcase of my work, interests, and projects. Feel free to explore and learn more about me.</p>
-
-            <h2 id="table-of-contents">Table of Contents</h2>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
             <h2 id="about-me">About Me</h2>
             <p>Hello! I'm Dean Stokes, a Software Engineer and Electronic Masters student. I have a passion for electronics, embedded systems, software and engineering problem solving. This website is a place where I share my work, thoughts, and experiences.</p>
 
@@ -60,14 +54,15 @@
             <p>[Short description of the project.]</p>
             <a href="URL">Link to the project</a>
             <p>You can find more of my projects on my <a href="https://github.com/yourusername">GitHub profile</a>.</p>
-
-            <h2 id="contact">Contact</h2>
-            <p>I'm always open to connecting with new people. You can reach me at:</p>
-            <ul>
-                <li><a href="mailto:dstokes181@gmail.com"><strong>Email</strong></a></li>
-                <li><a href="https://www.linkedin.com/in/dean-stokes-43ba4b210/"><strong>LinkedIn Profile</strong></a></li>
-            </ul>
         </div>
     </div>
+
+    <footer>
+        <h2 id="contact">Contact</h2>
+        <ul>
+            <li><a href="mailto:dstokes181@gmail.com"><strong>Email</strong></a></li>
+            <li><a href="https://www.linkedin.com/in/dean-stokes-43ba4b210/"><strong>LinkedIn Profile</strong></a></li>
+        </ul>
+    </footer>
 </body>
 </html>

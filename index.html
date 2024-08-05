@@ -5,64 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dean Stokes's Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about-me">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <div class="profile-container">
-        <img src="images/me.jpg" alt="Profile Picture" class="profile-image">
-        <h2>Dean Stokes</h2>
-        <div class="social-links">
-            <div class="icon">
-                <a href="https://www.linkedin.com/in/dean-stokes-43ba4b210/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+    <div id="home" class="section light-section">
+        <div class="profile-container">
+            <img src="images/me.jpg" alt="Profile Picture" class="profile-image">
+            <h2>Dean Stokes</h2>
+            <p>MEng Electronic Candidate | Graduate Software Engineer</p>
+            <div class="location">
+                <img src="images/location.png" alt="Location Icon" class="location-icon">
+                <p>Pretoria, South Africa</p>
             </div>
-            <div class="icon">
-                <a href="mailto:dstokes181@gmail.com" target="_blank"><img src="images/email.png" alt="Email"></a>
+            <div class="social-links">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/dean-stokes-43ba4b210/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                </div>
+                <div class="icon">
+                    <a href="mailto:dstokes181@gmail.com" target="_blank"><img src="images/email.png" alt="Email"></a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="content">
-            <h2 id="about-me">About Me</h2>
-            <p>Hello! I'm Dean Stokes, a Software Engineer and Electronic Masters student. I have a passion for electronics, embedded systems, software and engineering problem solving. This website is a place where I share my work, thoughts, and experiences.</p>
-
-            <h3>Education</h3>
-            <ul>
-                <li><strong>Bachelor of Engineering (Electrical and Electronic)</strong>, Stellenbosch University, 2023</li>
-                <li><strong>Master of Engineering (Electronic)</strong>, Stellenbosch University, 2024 - Present</li>
-            </ul>
-
-            <h3>Experience</h3>
-            <ul>
-                <li><strong>Graduate Software Engineer</strong>, Gendac Software, Innovations & IoT, 2024 - Present
-                    <ul>
-                        <li>Full stack web development, working with C#, Angular & SQL.</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h2 id="projects">Projects</h2>
-            <h3>[Project Title]</h3>
-            <p>[Short description of the project.]</p>
-            <a href="URL">Link to the project</a>
-            <p>You can find more of my projects on my <a href="https://github.com/yourusername">GitHub profile</a>.</p>
+    <div id="about-me" class="section dark-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Dean Stokes, a Software Engineer and a Master's student specializing in Electronics. With a deep-rooted passion for technology, I thrive in the intersection of electronics, embedded systems, and software engineering. My journey in these fields has been fueled by a relentless curiosity and a desire to solve complex engineering challenges.</p>
+            <p>Throughout my academic and professional career, I've honed my skills in developing innovative solutions that merge hardware and software seamlessly. Whether it's designing intricate embedded systems or creating robust software architectures, I am driven by the pursuit of excellence and the thrill of bringing ideas to life.</p>
+            <p>This website serves as a platform where I can share my work, thoughts, and experiences with like-minded individuals and professionals. Here, you'll find a collection of my projects, research, and insights into the ever-evolving world of technology. I invite you to explore my work, engage with my content, and connect with me as I continue to push the boundaries of what's possible in engineering and technology.</p>
         </div>
     </div>
 
-    <footer>
-        <h2 id="contact">Contact</h2>
-        <ul>
-            <li><a href="mailto:dstokes181@gmail.com"><strong>Email</strong></a></li>
-            <li><a href="https://www.linkedin.com/in/dean-stokes-43ba4b210/"><strong>LinkedIn Profile</strong></a></li>
-        </ul>
+    <div id="experience" class="section light-section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Graduate Software Engineer</h3>
+                        <p><strong>Gendac Software, Innovations & IoT</strong> | 2024 - Present | South Africa</p>
+                        <ul>
+                            <li>Full stack web development, working with C#, Angular & SQL.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="education" class="section dark-section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="https://ee.sun.ac.za/" target="_blank">
+                        <img src="images/SU.png" class="timeline-image">
+                    </a>
+                    <div class="timeline-content">
+                        <h3>Master of Engineering (Electronic)</h3>
+                        <p><strong>Stellenbosch University</strong> | 2024 - Present | South Africa</p>
+                        <ul>
+                            <li>Specialising in Robotics and Machine Learning.</li>
+                            <li>Current technology used includes: Python, C++, Ros2, Mediapipe, and Nvidia Isaac Sim.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <a href="https://ee.sun.ac.za/" target="_blank">
+                        <img src="images/SU.png" class="timeline-image">
+                    </a>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering (Electrical and Electronic)</h3>
+                        <p><strong>Stellenbosch University</strong> | 2019 - 2023 | South Africa</p>
+                        <ul>
+                            <li>Gained knowledge in Electronics, Energy Systems, Control Systems, Software, Embedded Systems and Machine Learning.</li>
+                            <li>Graduated with distinction.</li>
+                            <li>Engineering Mathematic Learning Assistant for first and second year students.</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="section light-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>[Project Title]</h3>
+                        <p>[Short description of the project.]</p>
+                        <a href="URL">Link to the project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact" class="section dark-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch with me, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <div class="social-links">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/dean-stokes-43ba4b210/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                </div>
+                <div class="icon">
+                    <a href="mailto:dstokes181@gmail.com" target="_blank"><img src="images/email.png" alt="Email"></a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

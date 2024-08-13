@@ -32,7 +32,7 @@ body {
 }
 
 .navbar li {
-    padding: 10px 20px;
+    padding: 6px 11px;
 }
 
 .navbar a {
@@ -46,7 +46,11 @@ body {
 
 .navbar li:hover {
     background-color: #555;
-    border-radius: 5px;
+    border-radius: 6px;
+}
+
+.navbar-wrapper {
+    padding: 6px 12px;
 }
 
 .section {
@@ -110,6 +114,15 @@ body {
 .icon {
     width: 40px;
     height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover {
+    width: 60px;
+    height: 60px;
     overflow: hidden;
     display: flex;
     justify-content: center;
